@@ -1,0 +1,32 @@
+# Dependencias
+node_modules/
+
+# Node.js portavel (baixado pelo instalar.bat)
+node_portavel/
+
+# Variaveis de ambiente (contem credenciais)
+.env
+.env.*
+
+# Dados de entrada (podem conter informacoes sensiveis)
+dados.csv
+
+# Browsers do Playwright
+playwright-report/
+test-results/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Sistema operacional
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editores
+.vscode/
+.idea/
+*.suo
+*.user

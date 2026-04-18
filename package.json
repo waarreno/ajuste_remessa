@@ -1,0 +1,27 @@
+{
+  "name": "ajuste-remessa",
+  "version": "1.0.0",
+  "description": "Automacao de ajuste de remessa de consultas de medicos cooperados no sistema TopSaude",
+  "author": "Warreno Hendrick Costa Lima Guimaraes",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start":    "node src/index.js",
+    "test-csv": "node src/lerCsv.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "keywords": [
+    "automacao",
+    "remessa",
+    "topsaude",
+    "playwright",
+    "cooperado"
+  ],
+  "dependencies": {
+    "dotenv":     "^16.4.5",
+    "playwright": "^1.59.1"
+  }
+}
