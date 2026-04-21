@@ -119,7 +119,7 @@ async function executarAutomacao(grupos, logger) {
   var referencia    = primeiroGrupo.referencia;
 
   console.log('\nIniciando navegador...');
-  var browser = await chromium.launch({ headless: false, slowMo: 100 });
+  var browser = await chromium.launch({ headless: false, slowMo: 0 });
   var context = await browser.newContext();
   var page    = await context.newPage();
 
