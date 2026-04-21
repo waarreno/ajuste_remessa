@@ -6,7 +6,7 @@ set "ROOT=%~dp0"
 set "NODE_DIR=%ROOT%node_portavel"
 
 echo =================================================
-echo   Ajuste de Remessa - Automacao TopSaude
+echo   Ajuste Remessa
 echo   v1.0.0
 echo   ^(c^) 2026 Warreno Hendrick Costa Lima Guimaraes
 echo =================================================

@@ -31,7 +31,7 @@ function confirmar(pergunta) {
 
 (async function() {
   console.log('\n=======================================================');
-  console.log('   Ajuste de Remessa - Automacao TopSaude');
+  console.log('   Ajuste Remessa');
   console.log('=======================================================\n');
 
   var grupos;
